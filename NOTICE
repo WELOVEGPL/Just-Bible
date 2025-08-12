@@ -1,0 +1,12 @@
+Third-Party Notices
+
+Bible Text (Korean, KOR1910)
+- Source: eBible.org — KOR1910 details: https://ebible.org/details.php?id=kor
+- Files: app/src/main/assets/kor_vpl/kor_vpl.txt (or kor_vpl.xml)
+- Status: Public Domain (1910 Korean Bible). See eBible.org for details.
+
+Android and Jetpack Compose libraries
+- Copyright (C) 2010-2025 Google LLC
+- Licensed under the Apache License, Version 2.0
+  http://www.apache.org/licenses/LICENSE-2.0
+  NOTICE: This product includes software developed by Google LLC and others.

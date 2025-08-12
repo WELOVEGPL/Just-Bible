@@ -1,0 +1,66 @@
+# Local & secrets
+local.properties
+*.jks
+*.keystore
+**/google-services.json
+
+# Gradle / build outputs
+.gradle/
+**/build/
+captures/
+*.apk
+*.ap_
+*.aab
+
+# IDE / OS
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+Thumbs.db
+
+# NDK / generated
+.cxx/
+bin/
+gen/
+*.dex
+*.class
+
+# Logs / caches
+*.log
+*.cache
+# Gradle
+.gradle/
+**/build/
+build/
+local.properties
+
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Android
+captures/
+.externalNativeBuild/
+.cxx/
+*.keystore
+*.jks
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# NDK/LLDB
+.externalNativeBuild/
+.cxx/
+
+# Release/Signing outputs
+app/release/
+app/debug/
+
+
