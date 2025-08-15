@@ -1,4 +1,4 @@
-package com.opensourcebible.app.data
+package com.justbible.app.data
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase

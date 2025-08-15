@@ -6,7 +6,7 @@
         android:label="@string/app_name"
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
-        android:theme="@style/Theme.OpensourceBible">
+        android:theme="@style/Theme.JustBible">
         <activity
             android:name=".MainActivity"
             android:exported="true">

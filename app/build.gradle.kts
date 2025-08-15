@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.opensourcebible.app"
+    namespace = "com.justbible.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.opensourcebible.app"
+        applicationId = "com.justbible.app"
         minSdk = 21
         targetSdk = 34
         versionCode = 1

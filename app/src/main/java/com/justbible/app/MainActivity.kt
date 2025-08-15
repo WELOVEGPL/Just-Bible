@@ -1,4 +1,4 @@
-package com.opensourcebible.app
+package com.justbible.app
 
 import android.content.Intent
 import android.net.Uri
@@ -31,13 +31,13 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.opensourcebible.app.data.BibleRepository
-import com.opensourcebible.app.ui.theme.OpensourceBibleTheme
-import com.opensourcebible.app.util.ZipHelper
-import com.opensourcebible.app.ui.BookListWithBackScreen
-import com.opensourcebible.app.ui.ChapterListWithBackScreen
-import com.opensourcebible.app.ui.VerseListWithBackScreen
-import com.opensourcebible.app.ui.BookmarksScreen
+import com.justbible.app.data.BibleRepository
+import com.justbible.app.ui.theme.JustBibleTheme
+import com.justbible.app.util.ZipHelper
+import com.justbible.app.ui.BookListWithBackScreen
+import com.justbible.app.ui.ChapterListWithBackScreen
+import com.justbible.app.ui.VerseListWithBackScreen
+import com.justbible.app.ui.BookmarksScreen
 import java.io.File
 import java.io.InputStream
 
@@ -57,7 +57,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            OpensourceBibleTheme {
+            JustBibleTheme {
                 Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
                     val viewState: MutableState<ViewState> = remember { mutableStateOf(ViewState.Home) }
 
@@ -249,7 +249,7 @@ private fun CenterText(text: String) {
 @Preview(showBackground = true)
 @Composable
 private fun HomePreview() {
-    OpensourceBibleTheme { HomeScreen(onShowEmbedded = {}, onPickZip = {}, onOpenBible = {}) }
+    JustBibleTheme { HomeScreen(onShowEmbedded = {}, onPickZip = {}, onOpenBible = {}) }
 }
 
 

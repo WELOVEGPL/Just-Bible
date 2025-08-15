@@ -1,4 +1,4 @@
-package com.opensourcebible.app.ui
+package com.justbible.app.ui
 
 import android.content.Context
 import org.json.JSONObject

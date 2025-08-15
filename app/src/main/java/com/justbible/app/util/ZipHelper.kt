@@ -1,4 +1,4 @@
-package com.opensourcebible.app.util
+package com.justbible.app.util
 
 import java.io.File
 import java.io.InputStream

@@ -1,0 +1,21 @@
+Just Bible is an offline Korean Bible viewer template for Android that provides a comprehensive reading experience without requiring an internet connection.
+
+**Key Features:**
+• Browse by book, chapter, and verse
+• Long-press verse to add/remove bookmarks
+• Bookmark list with quick navigation
+• Integrated with system back navigation
+• Material3-based Jetpack Compose UI
+
+**Bible Text Support:**
+• KOR1910 VPL import support
+• OSIS-to-Korean book name mapping
+• Complete offline functionality
+
+**Technical Details:**
+• Built with Kotlin and Jetpack Compose
+• SQLite database for local storage
+• Modern Material Design 3 interface
+• Optimized for Android devices
+
+Perfect for users who want to read the Korean Bible offline with a clean, modern interface and bookmarking capabilities.

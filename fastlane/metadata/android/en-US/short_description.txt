@@ -1,0 +1,1 @@
+Offline Korean Bible viewer with KOR1910 support
