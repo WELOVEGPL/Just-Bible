@@ -1,0 +1,6 @@
+Version 1.0.1
+• Fixed package name from com.opensourcebible.app to com.justbible.app
+• Added F-Droid fastlane metadata structure
+• Resolved DISPLAY_NAME column issue
+• Updated app theme to Theme.JustBible
+• Added Korean language support in metadata

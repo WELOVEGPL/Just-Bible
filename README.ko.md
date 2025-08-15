@@ -79,7 +79,7 @@ GPLoyalist, GPLaider
 ### 리포지토리 구조
 
 ```text
-app/src/main/java/com/opensourcebible/app/  # Kotlin 소스
+app/src/main/java/com/justbible/app/  # Kotlin 소스
 app/src/main/assets/                       # 데이터 에셋
 app/src/main/res/                          # Android 리소스
 gradle/, gradlew*, build.gradle.kts        # Gradle 빌드 시스템

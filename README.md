@@ -82,7 +82,7 @@ GPLoyalist, GPLaider
 ### Repository Structure
 
 ```text
-app/src/main/java/com/opensourcebible/app/  # Kotlin source code
+app/src/main/java/com/justbible/app/  # Kotlin source code
 app/src/main/assets/                       # Data assets
 app/src/main/res/                          # Android resources
 gradle/, gradlew*, build.gradle.kts        # Gradle build system

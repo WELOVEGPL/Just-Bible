@@ -14,7 +14,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "OpensourceBible"
+rootProject.name = "Just-Bible"
 include(":app")
 
 
